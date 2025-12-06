@@ -1,0 +1,151 @@
+.study-layout {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+/*LEFT SIDE*/
+
+.study-left {
+    width: 60%;
+    margin-left: 20px;
+}
+
+.today-card {
+    margin-bottom: 50px;
+}
+
+.plan-title-1 {
+    font-size: large;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.chronometer-inline {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.study-plans-box {
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.study-plan-card {
+    background: #9ED9F5;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    margin-bottom: 16px; /* separa cada tarjeta */
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .study-plan-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+.no-plans {
+    padding: 12px;
+    color: #666;
+}
+
+.plan-row {
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 8px 0;
+}
+
+/*SUBJECTS*/
+/*Subject title*/
+.subject-name {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 1.3rem;
+    color: #333;
+}
+
+/*subject container*/
+.plan-subjects {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 4px;
+    padding: 10px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: #8ECAE6;
+
+}
+
+.subject-block {
+    margin-bottom: 10px;
+}
+
+.units-block {
+    margin-left: 12px;
+    padding-left: 6px;
+}
+
+.unit-item {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+
+
+/*Frequency*/
+.plan-frequency {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 6px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/*Buttons of study plans*/
+
+.plan-actions {
+    margin-top: 8px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    
+}
+
+/*RIGHT SIDE*/
+.study-right {
+    width: 40%;
+}
+
+/*Create new plan button*/
+
+.add-btn-studyplan {
+    background-color: #C1D7E1;
+    margin-top: 20%;
+    margin-left: 20%;
+    padding: 70px;
+    border-radius: 10px;
+
+}
+
+.add-btn-studyplan:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+.createPlan-container{
+    justify-items: center;
+    width: fit-content;
+  }
+
+
+
+  
+  

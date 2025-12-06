@@ -1,0 +1,60 @@
+.timer-wrapper {
+    background-color: #fff8de;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 14px;
+    padding: 20px;
+    border-radius: 28px;
+}
+
+.time-inputs {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #f7f7f7;
+    padding: 8px 12px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.time-input {
+    width: 45px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.time-input:hover {
+   background-color: #fde48bc2;
+   border-radius: 12px;
+}
+
+.colon {
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 0 4px;
+}
+
+.timer-btn {
+    height: 40px;
+    font-size: 500px;
+}
+
+.timer-btn:hover {
+    background-color: #fde48bc2;
+    border-radius: 70px;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.reset-btn {
+    height: 40px;
+    font-size: 500px;
+}
+
+.reset-btn:hover {
+    background-color: #fde48bc2;
+    border-radius: 70px;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,78 @@
+.createRoom-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    height: 100%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* LEFT SIDE */
+.left-side-create-room {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.ToDo-title {
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.item-row {
+    background-color: #F2E5B8;
+    /* color crema */
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.chores-row {
+    --background: transparent;
+    --inner-padding-end: 0;
+    --inner-padding-start: 0;
+    --padding-start: 0;
+    width: 100%;
+    border: none !important;
+
+}
+
+.add-chore {
+    font-size: 30px;
+    color: #487D97;
+    cursor: pointer;
+}
+
+.delete-chore {
+    font-size: 30px;
+    color: #d9534f;
+    cursor: pointer;
+}
+
+/* RIGHT SIDE */
+.roomName {
+    padding-bottom: 2px;
+
+}
+
+.roomNameInput:hover {
+    background-color: rgba(219, 219, 219, 0.534)
+}
+
+.right-side-create-room {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.action-createRoom-buttons {
+    margin-left: 60%;
+    margin-top: 120px;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 15px;
+}

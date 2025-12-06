@@ -1,0 +1,107 @@
+.create-grocery-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+
+/* LEFT SIDE */
+.left-grocery-panel {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.section-card {
+  margin-bottom: 20px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.section-header h3 {
+  margin-left: 25px;
+  color: black;
+}
+
+.delete-section {
+  font-size: 26px;
+  color: #d9534f;
+  margin-right: 25px;
+}
+
+/* Item inputs */
+.itemInput:hover {
+  background-color: rgba(184, 174, 131, 0.849)
+}
+
+.item-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.icon-add {
+  font-size: 50px;
+  color: #487D97;
+  cursor: pointer;
+}
+
+.icon-remove {
+  font-size: 50px;
+  color: #d9534f;
+  cursor: pointer;
+}
+
+/* RIGHT SIDE */
+.right-grocery-panel {
+  width: 50%;
+}
+
+.sections-title {
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.sections-buttons {
+  display: flex;
+    flex-direction: column; /* Vertical */
+    gap: 10px;              /* Separación entre botones */
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.custom-section {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.action-createList-buttons {
+  margin-left: 60%;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+/*List Name*/
+.listName{
+  padding-bottom: 2px;
+}
+
+.listNameInput:hover {
+  background-color: rgba(219, 219, 219, 0.534)
+}
+
+
+
+
+

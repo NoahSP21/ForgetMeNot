@@ -1,0 +1,72 @@
+.appointments-container {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    background: #9ED9F5;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.section-box {
+    background: #9ED9F5;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.section-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+.appointment-card {
+    background: #8ECAE6;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.appointment-title {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-bottom: 4px;
+    margin-left: auto;
+    display: flex;
+    
+    color: red;              
+    font-size: 22px;
+
+    position: relative;     
+}
+
+
+
+
+.datetime-box {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.date-box, .time-box {
+    flex: 1;
+    background: #85b7ce;
+    padding: 6px;
+    border-radius: 6px;
+    text-align: center;
+}
+

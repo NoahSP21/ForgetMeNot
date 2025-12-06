@@ -1,0 +1,108 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* left and right half */
+  height: 100%;
+  gap: 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/*MODAL*/
+ion-modal#modal {
+  --height: 55%;
+  --border-radius: 16px;
+  --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+ion-modal#modal::part(backdrop) {
+  background: rgba(209, 213, 219);
+  opacity: 1;
+}
+
+.inputReminder:hover{
+  background-color: rgb(184, 173, 131)
+}
+
+
+.modal-card{
+  background: #fff;                 /* mismo fondo que la tarjeta */
+  padding: 0 20px 50px 20px; 
+  background-color: rgba(242, 229, 184, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Título */
+.modal-card h2 {
+  font-size: 1.4rem;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+
+
+.card-actions {
+  display: flex;
+  justify-content: flex-end;   /* alinea los botones a la derecha */
+  gap: 8px;                    /* separación entre ellos */
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 10;
+}
+
+.reminder-card {
+  position: relative; /* necesario para poder posicionar .card-actions */
+}
+
+
+.left-panel,
+.right-panel {
+  padding: 5px;
+  overflow-y: auto;
+}
+
+.reminder-card {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+
+ion-card {
+  background-color: rgba(242, 229, 184, 1);
+  position: relative;
+}
+
+ion-card-title {
+  color: black;
+}
+
+
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  --padding-start: 0;
+  --padding-end: 0;
+  z-index: 10;
+}
+
+ion-datetime {
+  --background: #f1f9ff;
+  background-color: rgba(158, 217, 245, 1);
+
+  border-radius: 16px;
+  box-shadow: rgba(var(--ion-color-lightblue-rgb), 0.3) 0px 10px 15px -3px;
+}
+
+
+h1 {
+  padding: 1rem;
+}
+
+p {
+  margin-top: 2rem;
+  margin-left: 1rem;
+}

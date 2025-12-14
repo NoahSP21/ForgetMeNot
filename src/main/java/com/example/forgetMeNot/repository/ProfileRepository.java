@@ -34,9 +34,10 @@ public class ProfileRepository {
         db.collection("Users")
                 .document(uid)
                 .update(
-                        "name", profile.getFirstName(),
-                        "last name", profile.getLastName(),
+                        "firstName", profile.getFirstName(),
+                        "lastName", profile.getLastName(),
                         "email", profile.getEmail()
                 ).get();
     }
+
 }

@@ -5,6 +5,3 @@ The latest version of the Frontend branch is fully independent from the backend.
 
 This branch also contains the project documentation, including diagrams and other supporting materials used during the design and development of the application.
 
-<h3>Backend Branch</h3>
-
-The latest version of the Backend branch contains the complete project. It includes the backend services as well as a compiled production build of the frontend, which is served from the static resources directory.
